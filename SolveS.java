@@ -1,6 +1,5 @@
 import java.util.Scanner;
 
-
 public class Main {
     private  int n;
     private double x;
@@ -26,7 +25,7 @@ public class Main {
             for(int j=0; j<i; j++) {
                 term *= (n-j);
             }
-            term = (Math.pow(x,n) * term)/Factoria(n);
+            term = (Math.pow(x,i) * term)/Factoria(i);
             S += term;
         }
         return S;
